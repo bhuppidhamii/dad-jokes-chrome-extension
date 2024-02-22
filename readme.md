@@ -14,7 +14,7 @@ The "Dad Jokes" Chrome Extension is a fun and simple tool that provides users wi
 
 ## Installation
 
-1. Clone or download the repository to your local machine.
+1. Clone or download the repository to your local machine (zip file).
 2. Open Google Chrome and go to `chrome://extensions/`.
 3. Enable "Developer mode" in the top right corner.
 4. Click on the "Load unpacked" button and select the directory where you cloned/downloaded the extension.
@@ -29,9 +29,9 @@ The "Dad Jokes" Chrome Extension is a fun and simple tool that provides users wi
 
 ## API Usage
 
-- **icanhazdadjoke.com**: This API is used to fetch random dad jokes. It provides a simple and straightforward way to access a wide range of dad jokes for our extension.
+- **[The Dad Jokes API](https://icanhazdadjoke.com)**: This API is used to fetch random dad jokes. It provides a simple and straightforward way to access a wide range of dad jokes for our extension.
 
-- **Dog Image API**: The API used to fetch cute or funny dog images for the background display. This API adds an extra element of fun and joy to the user experience.
+- **[Dog Image API](https://dog.ceo/api/breeds/image/random)**: This API used to fetch cute or funny dog images for the background display. This API adds an extra element of fun and joy to the user experience.
 
 ## Contributing
 
