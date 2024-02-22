@@ -20,6 +20,6 @@ body {
   font-size: 22px;
   color: black;
   font-weight: 600;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   backdrop-filter: blur(20px);
 }
