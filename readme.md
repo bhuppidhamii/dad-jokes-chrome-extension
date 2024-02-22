@@ -14,7 +14,7 @@ The "Dad Jokes" Chrome Extension is a fun and simple tool that provides users wi
 
 ## Installation
 
-1. Clone or download the repository to your local machine.
+1. Clone or download the repository to your local machine (zip file).
 2. Open Google Chrome and go to `chrome://extensions/`.
 3. Enable "Developer mode" in the top right corner.
 4. Click on the "Load unpacked" button and select the directory where you cloned/downloaded the extension.
