@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+}
+#joke {
+  padding: 10px;
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+}
