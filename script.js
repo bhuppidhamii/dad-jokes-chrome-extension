@@ -11,6 +11,7 @@ fetch("https://dog.ceo/api/breeds/image/random")
     .then(response => response.json())
     .then(data => {
         document.body.style.backgroundImage = `url('${data.message}')`;
-        docuement.body.style.backgroundSize ='cover';
-        docuement.body.style.backgroundPosition ='center center';
+        document.body.style.backgroundSize = 'contain'; // Change to 'contain' to fit the image without stretching
+        document.body.style.backgroundRepeat = 'no-repeat'; // Ensure the image doesn't repeat
+        document.body.style.backgroundPosition = 'center'; // Center the image
     });
